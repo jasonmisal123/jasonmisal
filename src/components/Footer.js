@@ -15,7 +15,7 @@ function AppNavbar() {
     <Navbar className="py-4 px-1 mt-5">
       <Container className="px-5 ms-auto">
         <Navbar.Brand>
-          <p className="f fw-bold mb-0 pb-0">All rights reserved 2024</p>
+          <p className="f fw-bold mb-0 pb-0 text-success">All rights reserved 2024</p>
         </Navbar.Brand>
         <Navbar.Brand className="d-flex">
           <OverlayTrigger
@@ -23,7 +23,7 @@ function AppNavbar() {
             delay={{ show: 250, hide: 400 }}
             overlay={(props) => renderTooltip(props, "Facebook")}
           >
-            <Nav.Link href="https://web.facebook.com/roberto.r.gillo" target="_blank">
+            <Nav.Link href="https://web.facebook.com" target="_blank">
               <i className="bi bi-facebook fs-4 mx-2 text-primary"></i>
             </Nav.Link>
           </OverlayTrigger>
@@ -32,7 +32,7 @@ function AppNavbar() {
             delay={{ show: 250, hide: 400 }}
             overlay={(props) => renderTooltip(props, "GitHub")}
           >
-            <Nav.Link href="https://github.com/dashboard" target="_blank">
+            <Nav.Link href="https://www.github.com" target="_blank">
               <i className="bi bi-github fs-4 mx-2 text-dark"></i>
             </Nav.Link>
           </OverlayTrigger>
@@ -41,7 +41,7 @@ function AppNavbar() {
             delay={{ show: 250, hide: 400 }}
             overlay={(props) => renderTooltip(props, "Instagram")}
           >
-            <Nav.Link href="https://www.instagram.com/gillo.roberto/" target="_blank">
+            <Nav.Link href="https://www.instagram.com" target="_blank">
               <i className="bi bi-instagram fs-4 mx-2 text-danger"></i>
             </Nav.Link>
           </OverlayTrigger>
@@ -50,7 +50,7 @@ function AppNavbar() {
             delay={{ show: 250, hide: 400 }}
             overlay={(props) => renderTooltip(props, "Tiktok")}
           >
-            <Nav.Link href="https://www.tiktok.com/@roberto.gillo" target="_blank">
+            <Nav.Link href="https://www.tiktok.com" target="_blank">
               <i className="bi bi-tiktok fs-4 mx-2 text-dark"></i>
             </Nav.Link>
           </OverlayTrigger>

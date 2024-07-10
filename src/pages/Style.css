@@ -70,44 +70,4 @@ a {
   margin: auto;
 }
 
-@media (min-width: 800px) {
-  .abouts {
-    font-size: 6rem; 
-    text-align: left;
-  }
-}
-
-
-.transform-images {
-  width: 35vw;
-}
-.f{
-font-size: 12px;
-}
-
-.card{
-  border-radius: 10px;
-}
-.cardss{
-  margin-left: 5rem;
-}
-.tech{
-  width: 15vw;
-  padding: 5px;
-  border-radius: 7px;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-   margin-top: 1rem;
-}
-.transform-imagess {
-  width: 6vw;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin-top: 2rem;
-  
-}
-.transform-img {
-  width: 6vw;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  margin-top: 2rem;
-  height: 16vh;
-}
 

@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Row, Col, Card, Container } from "react-bootstrap";
-import webicodehelp from "../images/output.png";
-import rfid from "../images/picture.png";
-import homeImage from "../images/deve.jpg";
+import webicodehelp from "../images/pass.png";
+import rfid from "../images/pucture.jpg";
+import homeImage from "../images/deves.jpg";
 import "./Style.css";
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
                       <b>
                         Hello, I'm
                         <br />
-                        Roberto R. Gillo
+                        JASON L. MISAL
                       </b>
                     </h3>
                     <p className="text-muted fs-0 fw-light">
@@ -31,7 +31,7 @@ function Home() {
                       <br /> S.Y. 2023-2024
                     </p>
                     <p className="fw-light fs-4 mt-1 text-justify mb-4">
-                      <br /> "Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill
+                      <br /> "Motivation comes from working on things we care about. It also comes from working with people we care about." Sheryl Sandberg
                     </p>
                   </Card.Title>
                 </Card.Body>
@@ -57,7 +57,7 @@ function Home() {
           <div className="container pt-4 box">
             <Row>
               <Col>
-                <h6 className="fs-10 bold-500 mt-auto">Recent Projects</h6>
+                <h6 className="fs-10 bold-500 mt-auto">Recent<br></br> Projects</h6>
               </Col>
               <Col className="d-flex justify-content-center align-items-center ">
                 <a
@@ -71,7 +71,7 @@ function Home() {
               <Col className="col-12 bg-black mt-4 overflow-hidden position-relative">
                   <div className="p-4 position-absolute top-25 start-25">
                   <button className="text-white fw-bold btn btn-outline-success btn btn-dark">
-                  <a href="https://robertogillo.github.io/gillo.github.io/" className="text-white" style={{ textDecoration: 'none' }}>
+                  <a href="https://jasonmisal123.github.io/limaco.github.io/" className="text-white" style={{ textDecoration: 'none' }}>
                  Sample Website
                  </a>
                   </button>
